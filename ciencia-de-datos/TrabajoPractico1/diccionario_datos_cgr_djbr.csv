@@ -1,0 +1,17 @@
+﻿variable,descripcion,tipo,nota
+registro_id,Identificador interno de la muestra didáctica,texto,No oficial
+cedula,Identificador de persona. En muestra didáctica está anonimizado/aleatorio; en muestra mínima real refleja el registro público visible,texto,No usar como clave pública
+funcionario,Nombre o identificador del funcionario,texto,En muestra didáctica es anónimo
+anio,Año de la declaración,entero,Útil para series temporales
+tipo_presentacion,Motivo o tipo de la declaración,texto,"Ej. actualización, asunción, renovación"
+institucion,Institución principal del funcionario,texto,Variable categórica clave para EDA
+cargo,Cargo o rol,texto,Puede tener valores faltantes en raw
+activos_gs,Total de activos declarados,numérico,Guaraníes
+pasivos_gs,Total de pasivos declarados,numérico,Guaraníes
+patrimonio_neto_gs,Activos - pasivos,numérico,Guaraníes
+ingreso_mensual_gs,Ingresos mensuales,numérico,Guaraníes
+ingreso_anual_gs,Ingresos anuales,numérico,Guaraníes
+egreso_mensual_gs,Egresos mensuales,numérico,Guaraníes
+egreso_anual_gs,Egresos anuales,numérico,Guaraníes
+url_pdf,Enlace al PDF público cuando existe,texto,Solo en muestra real mínima
+fuente,Origen del registro,texto,Distingue real mínima vs didáctica
