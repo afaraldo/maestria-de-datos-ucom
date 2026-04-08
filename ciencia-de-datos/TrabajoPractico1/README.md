@@ -2,7 +2,7 @@
 
 Proyecto base para trabajar en Google Colab.
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/maestria-de-datos-ucom/ciencia-de-datos/blob/main/TrabajoPractico1/TrabajoPractico1.ipynb)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afaraldo/maestria-de-datos-ucom/blob/main/ciencia-de-datos/TrabajoPractico1/TrabajoPractico1.ipynb)
 
 ## Archivos
 
