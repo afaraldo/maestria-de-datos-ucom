@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Export TrabajoPractico1 PDF",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/bin/jupyter",
+      "args": [
+        "nbconvert",
+        "--to",
+        "webpdf",
+        "--allow-chromium-download",
+        "${workspaceFolder}/ciencia-de-datos/TrabajoPractico1/TrabajoPractico1.ipynb"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
